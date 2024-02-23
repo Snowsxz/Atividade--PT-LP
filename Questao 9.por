@@ -5,9 +5,7 @@ programa {
   // Declarando Variaveis
 
   inteiro numeroPrestacoes
-  real rendaMensal, emprestimoSolicitado
-
-  real valorPrestacao, limiteEmprestimo, limitePrestacao
+  real rendaMensal, emprestimoSolicitado, valorPrestacao, limiteEmprestimo, limitePrestacao
 
   // Solicitando ao usuario
 
@@ -17,7 +15,7 @@ programa {
   escreva ("Escreva o valor total do emprestimo solicitado: R$ ")
   leia (emprestimoSolicitado)
 
-  escreva ("Escreva o numero de prestaçoes desejadas: ")
+  escreva ("Escreva o numero de prestaÃ§oes desejadas: ")
   leia (numeroPrestacoes)
 
   // Calculando
