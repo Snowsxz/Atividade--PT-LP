@@ -28,9 +28,9 @@ programa {
   escreva ("\nSoma: ", soma)
 
   se (soma < c){
-    escreva ("\n\nA soma de A + B, e menor que C")
+    escreva ("\nA soma de A + B, e menor que C")
   }senao{
-    escreva ("\nA soma de A + B, é maior que C")
+    escreva ("\nA soma de A + B, Ã© maior que C")
 
 
   }
