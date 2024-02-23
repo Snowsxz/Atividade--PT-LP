@@ -15,7 +15,7 @@ programa{
   escreva ("Digite a quantidade de Produto: ")
   leia(quantidadeAdquirida)
 
-  escreva ("Digite o preço do Produto: ")
+  escreva ("Digite o preÃ§o do Produto: ")
   leia(precoUnitario)
 
   // Calculando 
@@ -27,6 +27,8 @@ programa{
   se (quantidadeAdquirida <= 5){
   desconto = precoUnitario * 0.02
   totalaPagar = totalaPagar - desconto
+
+  
   escreva ("\nTotal a ser pago: ")
   escreva (totalaPagar)
   }
@@ -34,6 +36,8 @@ programa{
   senao se (quantidadeAdquirida > 5 e quantidadeAdquirida <= 10){
   desconto = precoUnitario * 0.03
   totalaPagar = totalaPagar - desconto
+
+
   escreva ("\nTotal a ser pago: ")
   escreva (totalaPagar)
   }
@@ -41,6 +45,8 @@ programa{
   senao{
   desconto = precoUnitario * 0.05
   totalaPagar = totalaPagar - desconto
+
+
   escreva ("\nTotal a ser pago: ")
   escreva (totalaPagar)
 
