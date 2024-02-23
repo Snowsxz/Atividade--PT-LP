@@ -25,7 +25,7 @@ programa {
 
   escreva ("================================")
 
-  escreva ("\nSoma: ", soma)
+  escreva ("Soma: ", soma)
 
   se (soma < c){
     escreva ("\nA soma de A + B, e menor que C")
